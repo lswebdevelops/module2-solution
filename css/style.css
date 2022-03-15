@@ -1,4 +1,224 @@
-body{
-    background-color: white;
+
+
+*{
+    font-family: Georgia, 'arial', sans-serif;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
 }
 
+.row {
+    width: 100%;
+  }
+p{
+    
+float: right;    
+width: 90px;
+height: 25px;
+
+}
+article{
+    top: 15;
+    padding: 5;
+}
+
+#containerOne{
+position: relative;
+border: 2px solid black;
+margin:20px;
+background-color: gray;
+float: left;
+
+
+}
+
+#containerTwo{
+    position: relative;
+    border: 2px solid black;
+   
+    margin:20px;
+    background-color: gray;
+    float: left;
+}
+
+ #containerThree{
+        position: relative;
+        border: 2px solid black;
+       
+        margin:20px;
+        background-color: gray;
+        float: left;
+}
+
+
+
+/* 
+#######################################
+                Meat types
+*/
+
+#colOne{
+    background-color: rgb(208, 152, 151);
+    color:black ;
+    border: 1px solid black;
+   text-align: center;
+    margin:0px;
+    font-weight: bold;
+   
+   
+}
+
+
+#colTwo{
+    background-color: rgb(185, 68, 64);
+    color:white;
+     border: 1px solid black;
+     text-align: center;
+     font-weight: bold;
+     margin:0px;
+}
+
+#colthree{
+    background-color: rgb(227 , 209, 149);
+    color:black ;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    margin:0px;
+    
+}
+/* ####################################################### */
+
+
+
+/*
+########################
+  here style for the text 
+########################
+ */
+
+#textOne{
+    padding: 5px;
+    margin-top: 25px;
+  
+}
+#textTwo{
+    padding: 5px;
+    margin-top: 25px;
+}
+#textThree{
+    padding: 5px;
+    margin-top: 25px;
+}
+
+
+
+
+
+/********** Large devices only **********/
+
+@media (min-width:992px){
+    #containerOne{
+        width: 100%;
+       
+    }
+    #containerOne {
+        width: 331px;
+        height: 150px;
+        margin: 13px;
+    }
+}
+
+@media (min-width:992px){
+    #containerTwo{
+        width: 100%;
+    }
+    #containerTwo{
+        width: 331px;
+        height: 150px;
+        margin: 13px;
+    }
+}
+
+@media (min-width:992px){
+    #containerThree{
+        width: 100%;
+    }
+    #containerThree {
+        width: 331px;
+        height: 150px;
+        margin: 13px;
+    }
+}
+
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width:991px){
+    #containerOne{
+        width: 80%;
+        
+    }
+    #containerOne{
+        width: 330px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+    #containerTwo{
+        width: 80%;
+        
+    }
+    #containerTwo{
+        width: 330px;
+        height: 150px;
+    }
+}
+@media (min-width: 768px) and (max-width:991px){
+    #containerThree{
+        width: 80%;
+        
+    }
+    #containerThree{
+        width: 700px;
+        height: 150px;
+    }
+}
+
+
+/********** Small devices only **********/
+
+@media (max-width: 767px) {
+    #containerOne{
+        width: 50%;
+        
+    }
+    #containerOne{
+        width: 330px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 767px) {
+    #containerTwo{
+        width: 50%;
+        
+    }
+    #containerTwo{
+        width: 330px;
+        height: 180px;
+    }
+}
+@media (max-width: 767px) {
+    #containerThree{
+        width: 50%;
+        
+    }
+    #containerThree{
+        width: 330px;
+        height: 180px;
+}
